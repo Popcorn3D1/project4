@@ -12,7 +12,7 @@ body {
 
 div{
     background-image: url('https://www.transparenttextures.com/patterns/black-paper.png');
-    padding: 5%;
+    padding: .5% 5%;
     text-align: left;
     border-radius: 20px;
 }
