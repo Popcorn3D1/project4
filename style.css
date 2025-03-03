@@ -18,32 +18,44 @@ body {
     color: rgb(38, 16, 63);
 }
 
+img {
+    width: 40%;
+}
+
 h1 {
     font-family: "AliceW", "Alice", Georgia, 'Times New Roman', Times, serif;
     font-size: 300%;
 }
 
-ul {
+ul, .container {
     text-align: center;
-    list-style: none;
-    /*margin-left: -4%;*/
 }
 
-li {
+ul {
+    list-style: none;
+    margin-left: -40px;
+}
+
+li, nav p {
     display: inline;
     margin-bottom: 2.5%;
     background-image: url('https://www.transparenttextures.com/patterns/padded.png');
-    background-color: #6fe5ff;
+    background-color: #80d7ff;
     border: solid #5e362b 3px;
     padding: 1%;
+    transition: 0.3s;
 }
 
-nav a {
+li:hover {
+    background-color: #84b8ec;
+}
+
+a {
     color: rgb(38, 16, 63);
     text-decoration: none;
 }
 
-section {
+main {
     padding: 2% 5%;
 }
 
@@ -52,12 +64,11 @@ section {
     background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
 }
 
-div{
+main div{
     text-align: left;
-    /*border-radius: 20px;*/
 }
 
-section p {
+main p {
     text-indent: 3%;
 }
 
@@ -73,22 +84,16 @@ section p {
     text-align: center;
 }
 
-.button {
-    display: inline;
-}
-
-#prev {
-    text-align: left;
-    margin-right: 91%;
-    margin-left: -4%;
-}
-
-#next {
-    text-align: right;
+.container {
+    margin: 1%;
 }
 
 footer {
     font-family: "Rubik", Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     line-height: 1em;
+}
+
+footer a {
+    text-decoration: underline;
 }
