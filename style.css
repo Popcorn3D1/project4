@@ -13,7 +13,7 @@ body {
     font-weight: bold;
     text-align: left;
     width: 80%;
-    line-height: 2.5em;
+    line-height: 250%;
     color: rgb(38, 16, 63);
 }
 
@@ -46,6 +46,10 @@ li, nav p {
 }
 
 li:hover {
+    background-color: #84b8ec;
+}
+
+nav p:hover {
     background-color: #84b8ec;
 }
 
@@ -98,7 +102,7 @@ main p {
 footer {
     font-family: "Rubik", Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    line-height: 1em;
+    line-height: 100%;
 }
 
 footer a {
