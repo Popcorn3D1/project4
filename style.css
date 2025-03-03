@@ -3,18 +3,46 @@
 body {
     background-color: rgb(236, 208, 255);
     margin: auto;
-    font-family: "Rubik", Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    width: 60%;
+    font-family: "Alice", Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-kerning: 1px;
+    text-align: left;
+    width: 70%;
     line-height: 2.5em;
     color: rgb(38, 16, 63);
 }
 
+ul {
+    text-align: center;
+    list-style: none;
+    /*margin-left: -4%;*/
+}
+
+li {
+    margin-bottom: 2.5%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-image: url('https://www.transparenttextures.com/patterns/padded.png');
+    background-color: #6fe5ff;
+    border: solid #5e362b 3px;
+    padding: 1%;
+}
+
+section {
+    padding: 2% 5%;
+}
+
+#chapter {
+    background-color: rgb(225, 180, 255);
+    background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+}
+
 div{
-    background-image: url('https://www.transparenttextures.com/patterns/black-paper.png');
-    padding: .5% 5%;
     text-align: left;
-    border-radius: 20px;
+    /*border-radius: 20px;*/
 }
 
 p {
@@ -30,5 +58,10 @@ p {
 }
 
 .stars {
+    text-align: center;
+}
+
+footer {
+    font-family: "Rubik", Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
