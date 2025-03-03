@@ -11,7 +11,6 @@ body {
     padding-top: 3%;
     font-family: "Alice", Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-kerning: 1px;
     text-align: left;
     width: 80%;
     line-height: 2.5em;
@@ -80,12 +79,16 @@ main p {
     text-transform: uppercase;
 }
 
+.itallics {
+    font-style: italic;
+}
+
 .stars {
     text-align: center;
 }
 
-article {
- max-width: 80%;
+.mouse {
+ max-width: 70%;
 }
 
 .container {
@@ -101,13 +104,3 @@ footer {
 footer a {
     text-decoration: underline;
 }
-
-
-/* mouse tale */
-
-.eleven	{ font-size: 100%; margin: 0px; }
-.ten	{ font-size: 95%;  margin: 0px; }
-.nine	{ font-size: 85%;  margin: 0px; }
-.eight	{ font-size: 75%;  margin: 0px; }
-.seven	{ font-size: 65%;  margin: 0px; }
-.six	{ font-size: 55%;  margin: 0px; }
