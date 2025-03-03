@@ -84,6 +84,10 @@ main p {
     text-align: center;
 }
 
+article {
+ max-width: 80%;
+}
+
 .container {
     margin: 1%;
 }
@@ -97,3 +101,13 @@ footer {
 footer a {
     text-decoration: underline;
 }
+
+
+/* mouse tale */
+
+.eleven	{ font-size: 100%; margin: 0px; }
+.ten	{ font-size: 95%;  margin: 0px; }
+.nine	{ font-size: 85%;  margin: 0px; }
+.eight	{ font-size: 75%;  margin: 0px; }
+.seven	{ font-size: 65%;  margin: 0px; }
+.six	{ font-size: 55%;  margin: 0px; }
