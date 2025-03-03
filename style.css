@@ -32,16 +32,15 @@ ul {
 li {
     display: inline;
     margin-bottom: 2.5%;
+    background-image: url('https://www.transparenttextures.com/patterns/padded.png');
+    background-color: #6fe5ff;
+    border: solid #5e362b 3px;
+    padding: 1%;
 }
 
 nav a {
     color: rgb(38, 16, 63);
     text-decoration: none;
-    background-image: url('https://www.transparenttextures.com/patterns/padded.png');
-    background-color: #6fe5ff;
-    border: solid #5e362b 3px;
-    padding: 1%;
-    text-transform: capitalize;
 }
 
 section {
